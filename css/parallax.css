@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container div h1 {
+    color: white;
+
+}
+
+.container .first {
+    background-image: url("/assets/img1.jpg");
+    background-position: center;
+
+}
+
+.container .second {
+    background-color: bisque;
+}
+
+.container .third {
+    height: 400px;
+    background-image: url("/assets/imgreq.jpg");
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.container .fourth {
+    background-color: teal;
+}
+
+.container .return-btn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-color: green;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+.container .return-btn a {
+    text-decoration: none;
+    color: white;
+}
