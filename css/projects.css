@@ -75,6 +75,7 @@ header nav ul .button:hover {
     background-color: rgb(78, 4, 78);
 
 }
+
 header nav .hamburger-icon {
     display: none;
 }
@@ -83,8 +84,47 @@ header nav .hamburger-icon img {
     width: 30px;
 
 }
+
+header nav .modal-contain {
+    display: none;
+
+}
+
+header nav .modal {
+    padding: 20px;
+    height: 40vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+header nav .modal .cancel {
+    position: absolute;
+
+    right: 10px;
+    cursor: pointer;
+    width: 30px;
+}
+
+header nav .modal span a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav .modal span a:hover {
+    text-decoration: underline;
+}
+
 main {
-  padding: 40px;
+    padding: 40px;
+    min-height: 80vh;
     width: 100vw;
     background-color: rgb(94, 2, 45);
     color: white;
@@ -108,11 +148,13 @@ main ul li a {
     color: yellow;
 
 }
-main ul li a:hover{
+
+main ul li a:hover {
     text-decoration: underline;
 }
-main ul .description{
-margin-bottom: 10px;
+
+main ul .description {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -128,7 +170,7 @@ footer {
 @media screen and (max-width:908px) {
     main {
         padding: 40px;
-   
+
     }
 
     header nav ul .button {
@@ -136,6 +178,7 @@ footer {
     }
 
 }
+
 @media screen and (max-width:500px) {
 
     header nav ul {
@@ -145,12 +188,12 @@ footer {
     header nav .hamburger-icon {
         display: block;
     }
-main ul {
-width: 90vw;
-}
+
+    main ul {
+        width: 90vw;
+    }
 
 
 }
-@media screen and (max-width:410px){
 
-}
+@media screen and (max-width:410px) {}
