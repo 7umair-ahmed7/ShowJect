@@ -75,9 +75,16 @@ header nav ul .button:hover {
     background-color: rgb(78, 4, 78);
 
 }
+header nav .hamburger-icon {
+    display: none;
+}
 
+header nav .hamburger-icon img {
+    width: 30px;
+
+}
 main {
-    height: 80vh;
+  padding: 40px;
     width: 100vw;
     background-color: rgb(94, 2, 45);
     color: white;
@@ -89,7 +96,7 @@ main {
 }
 
 main ul {
-    width: 40vw;
+    width: 60vw;
 }
 
 main ul li {
@@ -104,6 +111,9 @@ main ul li a {
 main ul li a:hover{
     text-decoration: underline;
 }
+main ul .description{
+margin-bottom: 10px;
+}
 
 footer {
     background-color: black;
@@ -112,4 +122,35 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+
+@media screen and (max-width:908px) {
+    main {
+        padding: 40px;
+   
+    }
+
+    header nav ul .button {
+        padding: 5px 10px;
+    }
+
+}
+@media screen and (max-width:500px) {
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav .hamburger-icon {
+        display: block;
+    }
+main ul {
+width: 90vw;
+}
+
+
+}
+@media screen and (max-width:410px){
+
 }
