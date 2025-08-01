@@ -101,6 +101,9 @@ main ul li a {
     color: yellow;
 
 }
+main ul li a:hover{
+    text-decoration: underline;
+}
 
 footer {
     background-color: black;
