@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.bg-container {
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #004aad, #e385ec);
+    font-family: "Orbitron", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-container .container {
+    background: rgb(0, 158, 161);
+    width: 30%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.bg-container .container .count {
+    font-size: 100px;
+}
+
+.bg-container .container .logo :first-child {
+    font-weight: 700;
+    color: #004aad;
+}
+
+.bg-container .container .logo :nth-child(2) {
+    color: #003852;
+    font-weight: 700;
+}
+.bg-container .btns-1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.bg-container .btns-1 button {
+    color: white;
+     background: rgb(0, 158, 161);
+     border: none;
+     padding: 10px;
+     border-radius: 6px;
+     text-transform: uppercase;
+     cursor: pointer;
+     font-size: 15px;
+    }
+    .bg-container .btns-1 button:hover{
+    background: rgb(0, 121, 123);
+ 
+}
